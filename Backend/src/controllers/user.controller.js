@@ -108,7 +108,7 @@ const getUserCredits = async (req,res)=> {
         user:{name:user.name}
       })
     } catch (error) {
-      console.log(err); 
+      console.log(error); 
       res.json({
         success:false,
         message:error.message
