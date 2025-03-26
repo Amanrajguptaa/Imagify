@@ -2,6 +2,7 @@ import express from "express";
 import "dotenv/config";
 import cors from "cors";
 import connectDB from "./db/index.js";
+import userRouter from "./routes/user.route.js";
 
 const app = express();
 
@@ -24,3 +25,5 @@ connectDB()
 app.get("/", (req, res) => {
   res.send("Hello");
 });
+
+app.use('/api/user',userRouter);
