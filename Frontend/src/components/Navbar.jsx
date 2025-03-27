@@ -7,7 +7,7 @@ const Navbar = () => {
   const {user} = useContext(AppContext);
 
   return (
-    <nav className="flex justify-between items-center p-4">
+    <nav className="flex justify-between items-center py-4">
       <div className="text-3xl font-bold">Imagify</div>
       
       <div className="flex items-center gap-8">
