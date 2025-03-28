@@ -74,7 +74,7 @@ const TestimonialSection = () => {
         ))}
       </div>
 
-        <div className='mt-12 flex flex-col justify-center items-center space-y-5'>
+        <div className='mt-20 flex flex-col justify-center items-center space-y-5'>
             <p className='text-3xl'>
             See the magic. Try now
             </p>
